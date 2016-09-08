@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>意匠集-參觀說明</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/introductions.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/daohang.js"></script>
+    <script>
+        jQuery(function(){
+            var top=$(".site-nav").offset().top;
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= top) {
+                    $(".site-nav").attr("style", "position:fixed;top:0;left:0;z-index:10;");
+                } else {
+                    $(".site-nav").removeAttr("style");
+                }
+            }).trigger("scroll");
+        });
+    </script>
+</head>
+<body>
+<!--**********banner****************-->
+<div class="site-banner">
+    <div class="container">
+
+    </div>
+</div>
+<!--**********nav****************-->
+<div class="site-nav">
+    <div class="container">
+        <ul>
+            <li class="li1"><a href="index.html">關於意匠集</a></li>
+            <li class="li2"><a href="activities.html">活動單元</a></li>
+            <li class="li3"><a href="artists.html">參展藝匠</a></li>
+            <li class="li4"><a href="#">參觀說明</a></li>
+            <li class="li5"><a href="questions.html">常見問題</a></li>
+            <li class="li6"><a href="committee.html">組委會</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--****************menu*****右侧滑动导航***********-->
+<div id="menu">
+    <ul>
+        <li><a href="#item1" class="current">入場</a></li>
+        <li><a href="#item2">參觀</a></li>
+        <li><a href="#item3">展區</a></li>
+        <li><a href="#item4">展位</a></li>
+        <li><a href="#item5">交通</a></li>
+    </ul>
+</div>
+<!--******************notice********************-->
+<div id="content">
+    <div class="site-notice">
+        <div class="container">
+            <div class="item" id="item1">
+                <h2><img src="images/introductions/4-2.jpg" alt="入場參觀注意事項"></h2>
+                <div class="con-notice">
+                    <p>10: 00的開場時入場隊列非常擁擠，天氣可能炎熱，建議當天穿著容易調節溫度的服裝。</p>
+                    <p>活動現場展出均為原創作品，謝絕參觀者帶有版權的玩偶、展示、發表作品和角色扮演。</p>
+                    <p>因動物過敏等方面考慮，活動現場禁止帶寵物的入場。</p>
+                    <p>※導盲犬可通行</p>
+                </div>
+                <div style="clear:both; height:0; overflow:hidden"></div>
+            </div>
+        </div>
+    </div>
+    <!--******************introductions********************-->
+    <div class="site-introductions">
+        <div class="container">
+            <div class="item" id="item2">
+                <h2><img src="images/introductions/4-3.jpg" alt="參觀期間注意事項"></h2>
+                <div class="con-introductions">
+                    <p>特定的作品和人物，如靠近距離拍攝時必須得到本人許可。</p>
+                    <p>會場內全面禁煙。</p>
+                    <p>貴重物品請自行妥善保管，在會場的遺失、被盜破損，活動委員會難以全部承擔責任。</p>
+                    <p>活動期間內的急救事宜請參閱場地方信息。</p>
+                    <p>活動期間明顯擾亂公共秩序者，場地管理者有權請退現場。</p>
+                </div>
+                <div style="clear:both; height:0; overflow:hidden"></div>
+            </div>
+        </div>
+    </div>
+    <!--******************modules********************-->
+    <div class="site-modules">
+        <div class="container">
+            <div class="item" id="item3">
+                <h2>
+                    <img src="images/introductions/4-4.jpg" alt="展區規劃">
+
+                </h2>
+                <div class="con-modules" >
+                    <p>集市區 佔地50%</p>
+                    <p>知名品牌展區 佔地25%</p>
+                    <p>3D展 designer design for designers 佔地10%</p>
+                    <p>特殊集物者展覽 佔地05%</p>
+                    <p>非物質文化遺產 佔地05%</p>
+                    <p>空白搶攤登位活動 佔地05%</p>
+                    <p>展區內專設5處自拍和直播區 各有主題特色 佔地01%</p>
+                    <p>展區內專設3處媒採訪區 佔地02%</p>
+                    <p>視頻展示區《手作之美》 意匠視頻 佔地0.5%</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--******************venue********************-->
+    <div class="site-venue">
+        <div class="container">
+            <div class="item" id="item4">
+                <h2><img src="images/introductions/4-5.jpg" alt="展位地圖"></h2>
+                <img src="./images/introductions/map.jpg" alt="">
+                <div style="clear:both; height:0; overflow:hidden"></div>
+                <div class="download" >
+                    <a href="#">下載參觀手冊</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--******************informations********************-->
+    <div class="site-information">
+        <div class="container">
+            <div class="item" id="item5">
+                <h2><img src="images/introductions/4-6.jpg" alt="交通提示"></h2>
+                <img src="./images/introductions/tips.jpg" alt="">
+                <div style="clear:both; height:0; overflow:hidden"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--**********footer****************-->
+<div class="site-footer">
+    <div class="container">
+        <div class="service-link">
+            <div class="info-text">
+                <dl class="information">
+                    <dt>官方信息</dt>
+                    <dd><p>官網</p><span><a href="yijiangji.com">yijiangji.com</a></span></dd>
+                    <dd><p>官方郵箱</p><span>vip@yijiangji.com</span></dd>
+                    <dd><p>官方微信</p><span>官方指定信息渠道</span></dd>
+                    <dd><p>&nbsp;</p><span>@FOD工具控</span></dd>
+                    <dd><p>官方微博</p><span><a href="http://weibo.com/p/1005056004236541/home?from=page_100505&mod=TAB&is_hot=1#place">@意匠集</a></span></dd>
+                </dl>
+                <dl class="address">
+                    <dt>地址信息</dt>
+                    <dd>組委會地址</dd>
+                    <dd>北京朝阳区酒仙桥</dd>
+                    <dd>路甲12号电子城大厦2层</dd>
+                </dl>
+                <dl class="contacts">
+                    <dt>聯繫人信息</dt>
+                    <dd>策劃聯繫人</dd>
+                    <dd>張子建  微信 zijnss</dd>
+                    <dd>商務合作聯繫人</dd>
+                    <dd>王 璇  微信 ondesign</dd>
+                </dl>
+            </div>
+            <div class="qr-code">
+                <dt>關注我們</dt>
+                <div class="sina">
+                    <img src="images/index/u152_normal.png" alt="意匠集新浪微博">
+                    <p>新浪微博</p>
+                </div>
+                <div class="tencent">
+                    <img src="images/index/u152_normal.png" alt="意匠集微信">
+                    <p>微信</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

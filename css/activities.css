@@ -1,0 +1,57 @@
+/*------------------banner-----------------*/
+.site-banner{
+    background:url("../images/activities/activities_banner.jpg") no-repeat center top;
+    height:600px;
+
+}
+.site-banner .container{
+    position: relative;
+    height:399px;
+
+}
+.site-banner .container a{
+
+    position: absolute;
+    left:63%;
+    bottom:5%;
+}
+.site-nav .container .li2 a{
+    background: url("../images/index/index_line1.jpg") no-repeat center 80%;
+}
+/*------------------ceremony-----------------*/
+.site-ceremony .con-ceremony h3{
+    padding-bottom:25px;
+}
+.site-ceremony .con-ceremony .guests .allguests img{
+    padding-right:20px;
+    padding-bottom:30px;
+    float: left;
+}
+.site-ceremony .download{
+    height:40px;
+    border:3px solid #bdfe02;
+    width:794px;
+    background: url("../images/common/download.png") no-repeat 43% center;
+}
+.site-ceremony .download a{
+    display: block;
+    line-height:40px;
+    text-align: center;
+    font-size:14px;
+    width:794px;
+}
+/*------------------market-----------------*/
+.site-market .con-market a{
+    float:left;
+    padding-bottom:7px;
+}
+/*------------------exhibition-----------------*/
+
+/*------------------activity-----------------*/
+/*------------------experience-----------------*/
+/*------------------media-----------------*/
+
+/*------------------live-----------------*/
+.site-live{
+    margin-bottom:100px;
+}

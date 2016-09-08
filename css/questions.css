@@ -1,0 +1,59 @@
+/*------------------banner-----------------*/
+.site-banner{
+    background:url("../images/questions/questions_banner.jpg") no-repeat center top;
+    height:600px;
+
+}
+.site-banner .container{
+    position: relative;
+    height:399px;
+
+}
+.site-banner .container a{
+
+    position: absolute;
+    left:63%;
+    bottom:5%;
+
+
+}
+.site-nav .container .li5 a{
+    background: url("../images/index/index_line1.jpg") no-repeat center 80%;
+}
+
+.container h2 img{
+    padding-top:118px;
+    padding-bottom:60px;
+    margin:0 auto;
+}
+/*--------------notice--------------*/
+.site-notice .container .con1, .site-introductions .container .con1, .site-modules .container .con1{
+    margin-bottom:54px;
+}
+.site-notice dl,.site-introductions dl, .site-modules dl{
+    width:800px;
+    display: block;
+    height:36px;
+    margin-bottom:12px;
+}
+.site-notice dl dt,.site-introductions dl dt, .site-modules dl dt{
+    width:66px;
+    height:36px;
+    float:left;
+
+}
+.site-notice .question dd, .site-introductions .question dd, .site-modules .question dd{
+    font-size:16px;
+    line-height:36px;
+    width:734px;
+    float:left;
+}
+.site-notice .answer dd,.site-introductions .answer dd, .site-modules .answer dd{
+    font-size:14px;
+    width:734px;
+    line-height:28px;
+    float:left;
+    color: #505050;
+}
+
+

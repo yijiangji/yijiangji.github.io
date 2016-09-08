@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>意匠集-活動單元</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/activities.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/daohang.js"></script>
+    <script>
+        jQuery(function(){
+            var top=$(".site-nav").offset().top;
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= top) {
+                    $(".site-nav").attr("style", "position:fixed;top:0;left:0;z-index:10;");
+                } else {
+                    $(".site-nav").removeAttr("style");
+                }
+            }).trigger("scroll");
+        });
+    </script>
+</head>
+<body>
+<!--**********banner****************-->
+<div class="site-banner">
+    <div class="container">
+        <!--<a href="#"><img src="images/index/apply.png" alt="立即報名" title="立即報名"></a>-->
+    </div>
+</div>
+<!--**********nav****************-->
+<div class="site-nav">
+    <div class="container">
+        <ul>
+            <li class="li1"><a href="index.html">關於意匠集</a></li>
+            <li class="li2"><a href="#">活動單元</a></li>
+            <li class="li3"><a href="artists.html">參展藝匠</a></li>
+            <li class="li4"><a href="introductions.html">參觀說明</a></li>
+            <li class="li5"><a href="questions.html">常見問題</a></li>
+            <li class="li6"><a href="committee.html">組委會</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--****************menu*****右侧滑动导航***********-->
+<div id="menu">
+    <ul>
+        <li><a href="#item1" class="current">開幕</a></li>
+        <li><a href="#item2">集市</a></li>
+        <li><a href="#item3">展覽</a></li>
+        <li><a href="#item4">活動</a></li>
+        <li><a href="#item5">體驗</a></li>
+        <li><a href="#item6">媒體</a></li>
+        <li><a href="#item7">創投</a></li>
+        <li><a href="#item8">直播</a></li>
+
+    </ul>
+</div>
+<!--******************ceremony********************-->
+<div id="content">
+    <div class="site-ceremony">
+        <div class="container">
+            <div class="item" id="item1">
+                <h2><img src="images/activities/2-2.jpg" alt="開幕式單元"></h2>
+                <div class="con-ceremony">
+                    <div class="guests">
+                        <h3><img src="./images/activities/guests.png" alt=""></h3>
+                        <div class="allguests">
+                            <img src="./images/activities/guest01.png" alt="">
+                            <img src="./images/activities/guest01.png" alt="">
+                            <img src="./images/activities/guest01.png" alt="">
+                            <img src="./images/activities/guest01.png" alt="">
+                            <img style="padding-right:0;" src="./images/activities/guest01.png" alt="">
+                            <img src="./images/activities/guest01.png" alt="">
+                            <img src="./images/activities/guest01.png" alt="">
+                            <img src="./images/activities/guest01.png" alt="">
+                            <img src="./images/activities/guest01.png" alt="">
+                            <img style="padding-right:0;" src="./images/activities/guest01.png" alt="">
+                        </div>
+                    </div>
+                    <div class="process">
+                        <h3><img src="./images/activities/process.png" alt=""></h3>
+                        <img src="./images/activities/processdetail.png" alt="">
+                    </div>
+                    <!--<div style="clear:both; height:0; overflow:hidden"></div>-->
+                    <div class="download" >
+                        <a href="#">下載參觀手冊</a>
+                    </div>
+                </div>
+                <div style="clear:both; height:0; overflow:hidden"></div>
+            </div>
+        </div>
+    </div>
+    <!--******************market********************-->
+    <div class="site-market">
+        <div class="container">
+            <div class="item" id="item2">
+                <h2><img src="images/activities/2-3.jpg" alt="集市單元"></h2>
+                <div class="con-market" >
+                        <a href="#"><img src="images/activities/2-10.jpg" alt=""></a>
+                        <a style="padding:0 7px;" href="#"><img src="images/activities/2-11.jpg" alt=""></a>
+                        <a href="#"><img src="images/activities/2-12.jpg" alt=""></a>
+                        <a href="#"><img src="images/activities/2-13.jpg" alt=""></a>
+                        <a style="padding:0 7px;" href="#"><img src="images/activities/2-14.jpg" alt=""></a>
+                        <a href="#"><img src="images/activities/2-15.jpg" alt=""></a>
+                        <a href="#"><img src="images/activities/2-16.jpg" alt=""></a>
+                </div>
+                <div style="clear:both; height:0; overflow:hidden"></div>
+            </div>
+        </div>
+    </div>
+    <!--******************display********************-->
+    <div class="site-exhibition">
+        <div class="container">
+            <div class="item" id="item3">
+                <h2>
+                    <img src="images/activities/2-4.jpg" alt="展覽單元">
+                </h2>
+                <div class="con-exhibition" >
+                    <img src="./images/activities/exhibition.png" alt="">
+               
+                
+                </div>
+            </div>
+    </div>
+    <!--******************activity********************-->
+    <div class="site-activity">
+        <div class="container">
+            <div class="item" id="item4">
+                <h2><img src="images/activities/2-5.jpg" alt="活動單元"></h2>
+                <div class="con-activity" >
+                    <img src="./images/activities/activity.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--******************experience********************-->
+    <div class="site-experience">
+        <div class="container">
+            <div class="item" id="item5">
+                <h2><img src="images/activities/2-6.jpg" alt="體驗沙龍單元"></h2>
+                <div class="con-experience">
+                    <img src="./images/activities/exhibition.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--******************media********************-->
+    <div class="site-media">
+        <div class="container">
+            <div class="item" id="item6">
+                <h2>
+                    <img src="images/activities/2-7.jpg" alt="媒體沙龍單元">
+
+                </h2>
+                <div class="con-media">
+                    <img src="./images/activities/media.png" alt="">
+                </div>
+                <div style="clear:both; height:0; overflow:hidden"></div>
+            </div>
+        </div>
+    </div>
+    <!--***************venture***********************-->
+    <div class="site-venture">
+        <div class="container">
+            <div class="item" id="item7">
+                <h2><img src="images/activities/2-8.jpg" alt="合作夥伴"></h2>
+                <div class="con-venture">
+                    <img src="./images/activities/venture.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--******************live********************-->
+    <div class="site-live">
+        <div class="container">
+            <div class="item" id="item8">
+                <h2><img src="images/activities/2-9.jpg" alt="合作夥伴"></h2>
+                <div class="con-live">
+                    <img src="./images/activities/live.png" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--**********footer****************-->
+<div class="site-footer">
+    <div class="container">
+        <div class="service-link">
+            <div class="info-text">
+                <dl class="information">
+                    <dt>官方信息</dt>
+                    <dd><p>官網</p><span><a href="yijiangji.com">yijiangji.com</a></span></dd>
+                    <dd><p>官方郵箱</p><span>vip@yijiangji.com</span></dd>
+                    <dd><p>官方微信</p><span>官方指定信息渠道</span></dd>
+                    <dd><p>&nbsp;</p><span>@FOD工具控</span></dd>
+                    <dd><p>官方微博</p><span><a href="http://weibo.com/p/1005056004236541/home?from=page_100505&mod=TAB&is_hot=1#place">@意匠集</a></span></dd>
+                </dl>
+                <dl class="address">
+                    <dt>地址信息</dt>
+                    <dd>組委會地址</dd>
+                    <dd>北京朝阳区酒仙桥</dd>
+                    <dd>路甲12号电子城大厦2层</dd>
+                </dl>
+                <dl class="contacts">
+                    <dt>聯繫人信息</dt>
+                    <dd>策劃聯繫人</dd>
+                    <dd>張子建  微信 zijnss</dd>
+                    <dd>商務合作聯繫人</dd>
+                    <dd>王 璇  微信 ondesign</dd>
+                </dl>
+            </div>
+            <div class="qr-code">
+                <dt>關注我們</dt>
+                <div class="sina">
+                    <img src="images/index/u152_normal.png" alt="意匠集新浪微博">
+                    <p>新浪微博</p>
+                </div>
+                <div class="tencent">
+                    <img src="images/index/u152_normal.png" alt="意匠集微信">
+                    <p>微信</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

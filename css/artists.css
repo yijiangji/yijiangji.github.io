@@ -1,0 +1,113 @@
+/*------------------banner-----------------*/
+.site-banner{
+    background:url("../images/artists/artists_banner.jpg") no-repeat center top;
+    height:600px;
+
+}
+.site-banner .container{
+    position: relative;
+    height:399px;
+
+}
+.site-banner .container a{
+
+    position: absolute;
+    left:63%;
+    bottom:5%;
+}
+.site-nav .container .li3 a{
+    background: url("../images/index/index_line1.jpg") no-repeat center 80%;
+}
+/*------------------artist-----------------*/
+.site-artist .con-artist h3{
+    padding-bottom:25px;
+}
+.site-artist .con-artist{
+    font-size:14px;
+    color: #505050;
+    font-family:"宋体";
+    line-height: 28px;
+    font-weight:bold;
+}
+.site-artist .con-artist dl{
+    margin-bottom:62px;
+}
+.site-artist .con-artist dl img{
+    height:320px;
+    width:800px;
+}
+.site-artist .con-artist dd{
+    line-height:38px;
+    height:38px;
+}
+.site-artist .download{
+    height:40px;
+    border:3px solid #fd5a99;
+    width:794px;
+    background: url("../images/common/download.png") no-repeat 43% center;
+}
+.site-artist .download a{
+    display: block;
+    line-height:40px;
+    text-align: center;
+    font-size:14px;
+    width:794px;
+}
+/*------------------exhibition-----------------*/
+.site-exhibition .con-exhibition h3{
+    padding-bottom:25px;
+}
+.site-exhibition .con-exhibition .jiangheader{
+    height:68px;
+    border-top: 2px solid #a7a7a7;
+    overflow:hidden;
+    width:800px;
+
+}
+.site-exhibition .con-exhibition img{
+    padding:24px 0;
+    float:left;
+
+}
+.site-exhibition .con-exhibition span{
+    float: right;
+    padding-top:32px;
+    color:#505050;
+
+}
+.site-exhibition .con-exhibition ul{
+    width: 200px;
+    float:left;
+    margin-bottom:30px;
+}
+.site-exhibition .con-exhibition ul li{
+    height:28px;
+    line-height:28px;
+    font-size:14px;
+    color: #505050;
+}
+.site-exhibition .buy{
+    height:40px;
+    border:3px solid #ff5998;
+    width:794px;
+    background: url("../images/common/buy.png") no-repeat 40% center;
+    margin-bottom:60px;
+}
+.site-exhibition .buy a{
+    display: block;
+    line-height:40px;
+    text-align: center;
+    font-size:14px;
+    width:794px;
+}
+
+/*------------------exhibition-----------------*/
+
+/*------------------activity-----------------*/
+/*------------------experience-----------------*/
+/*------------------media-----------------*/
+
+/*------------------live-----------------*/
+.site-live{
+    margin-bottom:100px;
+}

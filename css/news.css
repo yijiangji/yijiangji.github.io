@@ -1,0 +1,44 @@
+/*------------------banner-----------------*/
+.site-banner{
+    background:url("../images/news/news_banner.jpg") no-repeat center top;
+    height:600px;
+
+}
+.site-banner .container{
+    position: relative;
+    height:399px;
+
+}
+.site-banner .container a{
+
+    position: absolute;
+    left:63%;
+    bottom:5%;
+
+
+}
+
+/*------------------news-----------------*/
+.site-news .con-news .overview{
+    margin-bottom:60px;
+}
+.site-news .con-news h3{
+    color: #61fe65;
+    font-size:14px;
+}
+.site-news .con-news dl{
+    width:800px;
+    color:#505050;
+}
+.site-news .con-news dl dt{
+    width:800px;
+    font-size:20px;
+    line-height:40px;
+    height:40px;
+    background: url("../images/news/line.png") no-repeat left bottom;
+}
+.site-news .con-news dl dd{
+    font-size:14px;
+    line-height:28px;
+    margin:13px 0 27px 0;
+}

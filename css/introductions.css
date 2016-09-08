@@ -1,0 +1,59 @@
+/*------------------banner-----------------*/
+.site-banner{
+    background:url("../images/introductions/introductions_banner.jpg") no-repeat center top;
+    height:600px;
+
+}
+.site-banner .container{
+    position: relative;
+    height:399px;
+
+}
+.site-banner .container a{
+
+    position: absolute;
+    left:63%;
+    bottom:5%;
+
+
+}
+.site-nav .container .li4 a{
+    background: url("../images/index/index_line1.jpg") no-repeat center 80%;
+}
+
+.container h2 img{
+    padding-top:118px;
+    padding-bottom:60px;
+    margin:0 auto;
+}
+/*--------------notice--------------*/
+.site-notice p,.site-introductions p,.site-modules p{
+    font-family:"宋体";
+    font-size:14px;
+    text-align: center;
+    color: #505050;
+    height:38px;
+    line-height:38px;
+    font-weight:bolder;
+}
+/*--------------introductions--------------*/
+
+.site-venue .download{
+    margin-top:40px;
+    height:40px;
+    border:3px solid #7adeff;
+    width:794px;
+    background: url("../images/common/download.png") no-repeat 43% center;
+}
+.site-venue .download a{
+    display: block;
+    line-height:40px;
+    text-align: center;
+    font-size:14px;
+    width:794px;
+}
+
+.site-information{
+    margin-bottom:100px;
+}
+

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>意匠集-參展意匠</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/artists.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/daohang.js"></script>
+    <script>
+        jQuery(function(){
+            var top=$(".site-nav").offset().top;
+            $(window).scroll(function () {
+                if ($(window).scrollTop() >= top) {
+                    $(".site-nav").attr("style", "position:fixed;top:0;left:0;z-index:10;");
+                } else {
+                    $(".site-nav").removeAttr("style");
+                }
+            }).trigger("scroll");
+        });
+    </script>
+</head>
+<body>
+<!--**********banner****************-->
+<div class="site-banner">
+    <div class="container">
+        <!--<a href="#"><img src="images/index/apply.png" alt="立即報名" title="立即報名"></a>-->
+    </div>
+</div>
+<!--**********nav****************-->
+<div class="site-nav">
+    <div class="container">
+        <ul>
+            <li class="li1"><a href="index.html">關於意匠集</a></li>
+            <li class="li2"><a href="activities.html">活動單元</a></li>
+            <li class="li3"><a href="#">參展藝匠</a></li>
+            <li class="li4"><a href="introductions.html">參觀說明</a></li>
+            <li class="li5"><a href="questions.html">常見問題</a></li>
+            <li class="li6"><a href="committee.html">組委會</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--****************menu*****右侧滑动导航***********-->
+<div id="menu">
+    <ul>
+        <li><a href="#item1" class="current">意匠</a></li>
+        <li><a href="#item2">一覽</a></li>
+    </ul>
+</div>
+<!--******************artist********************-->
+<div id="content">
+    <div class="site-artist">
+        <div class="container">
+            <div class="item" id="item1">
+                <h2><img src="images/artists/3-2.jpg" alt="參展意匠"></h2>
+                <div class="con-artist">
+                    <div class="fanji">
+                        <h3><img src="./images/artists/fanji.png" alt=""></h3>
+                        <dl>
+                            <dt>梵幾是由設計師古奇高創立的獨立家具品牌，“梵”是淨空與安靜的意思，“幾”是家具，
+                                意為淨空安靜的家具，同時梵幾的諧音是“凡幾”——平凡的家具，梵幾希望做些實實在在
+                                被生活所用，並且自然的融合在生活當中的家具。
+                            </dt>
+                            <dd>www.fnji.com</dd>
+                            <img src="./images/artists/fanji.jpg" alt="">
+                        </dl>
+                    </div>
+                    <div class="zhepin">
+                        <h3><img src="./images/artists/zhepin.png" alt=""></h3>
+                        <dl>
+                            <dt>因循對東方傳統文化的尊重，與對新時代的熱情，通過對器物的創新設計，使東方文化重返
+                                當代生活。哲品集聚深諳東方生活智慧的各國籍各領域設計師，以“超級平衡”的設計態度，
+                                形成東方與西方的和諧對話，傳統與現代的詩意融合。哲品藉由一件件“妙思、當下、簡易”
+                                的器物，將“自然於心”的生活方式帶給每個使用者，並以此觀照人與器物，人與人，人與自然
+                                ，人與自我的關
+                            </dt>
+                            <dd>www.zens.asia/cn</dd>
+                            <img src="./images/artists/zhepin.jpg" alt="">
+                        </dl>
+                    </div>
+                    <div class="heichuan">
+                        <h3><img src="./images/artists/heichuan.png" alt=""></h3>
+                        <dl>
+                            <dt>黑川雅之是世界著名的建築與工業設計師，被譽為開創日本建築和工業設計新時代的代表性人物。
+                                他成功地將東西方審美理念融為一體，形成優雅的藝術風格。著名的美國紐約現代藝術博物館將
+                                他的作品列為重要館藏物。他設計的作品主要有燈具、照相機、飾品、手錶、工業產品等
+                            </dt>
+                            <dd>www.zens.asia/cn</dd>
+                            <img src="./images/artists/heichuan.jpg" alt="">
+                        </dl>
+                    </div>
+                    <div class="download" >
+                        <a href="#">下載參觀手冊</a>
+                    </div>
+                </div>
+                <div style="clear:both; height:0; overflow:hidden"></div>
+            </div>
+        </div>
+    </div>
+    <!--******************exhibition********************-->
+    <div class="site-exhibition">
+        <div class="container">
+            <div class="item" id="item2">
+                <h2><img src="images/artists/3-3.jpg" alt="參展者一覽"></h2>
+                <div class="con-exhibition" >
+                    <div class="yijiang">
+                        <div class="jiangheader">
+                            <img src="./images/artists/yijiang.png" alt="">
+                            <span>*排名不分先後</span>
+                        </div>
+                        <ul>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                        </ul>
+                        <ul>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                        </ul>
+                        <ul>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                        </ul>
+                        <ul>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                        </ul>
+                    </div>
+                    <div class="pijiang">
+                        <div class="jiangheader">
+                            <img src="./images/artists/pijiang.png" alt="">
+                            <span>*排名不分先後</span>
+                        </div>
+                        <ul>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                        </ul>
+                        <ul>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                        </ul>
+                        <ul>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                        </ul>
+                        <ul>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                        </ul>
+                    </div>
+                    <div class="mujiang">
+                        <div class="jiangheader">
+                            <img src="./images/artists/mujiang.png" alt="">
+                            <span>*排名不分先後</span>
+                        </div>
+                        <ul>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                        </ul>
+                        <ul>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                        </ul>
+                        <ul>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                        </ul>
+                        <ul>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                            <li>黑川雅之</li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="clear:both; height:0; overflow:hidden"></div>
+                <div class="buy" >
+                    <a href="#">部分意匠產品線上購買</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+        <!--**********footer****************-->
+        <div class="site-footer">
+            <div class="container">
+                <div class="service-link">
+                    <div class="info-text">
+                        <dl class="information">
+                            <dt>官方信息</dt>
+                            <dd><p>官網</p><span><a href="yijiangji.com">yijiangji.com</a></span></dd>
+                            <dd><p>官方郵箱</p><span>vip@yijiangji.com</span></dd>
+                            <dd><p>官方微信</p><span>官方指定信息渠道</span></dd>
+                            <dd><p>&nbsp;</p><span>@FOD工具控</span></dd>
+                            <dd><p>官方微博</p><span><a href="http://weibo.com/p/1005056004236541/home?from=page_100505&mod=TAB&is_hot=1#place">@意匠集</a></span></dd>
+                        </dl>
+                        <dl class="address">
+                            <dt>地址信息</dt>
+                            <dd>組委會地址</dd>
+                            <dd>北京朝阳区酒仙桥</dd>
+                            <dd>路甲12号电子城大厦2层</dd>
+                        </dl>
+                        <dl class="contacts">
+                            <dt>聯繫人信息</dt>
+                            <dd>策劃聯繫人</dd>
+                            <dd>張子建  微信 zijnss</dd>
+                            <dd>商務合作聯繫人</dd>
+                            <dd>王 璇  微信 ondesign</dd>
+                        </dl>
+                    </div>
+                    <div class="qr-code">
+                        <dt>關注我們</dt>
+                        <div class="sina">
+                            <img src="images/index/u152_normal.png" alt="意匠集新浪微博">
+                            <p>新浪微博</p>
+                        </div>
+                        <div class="tencent">
+                            <img src="images/index/u152_normal.png" alt="意匠集微信">
+                            <p>微信</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
