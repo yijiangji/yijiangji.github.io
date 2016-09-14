@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/lunbo.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/daohang.js"></script>
+    <script src="js/backtotop.js"></script>
     <script>
         jQuery(function(){
             var top=$(".site-nav").offset().top;
@@ -45,13 +46,13 @@
 <!--****************menu*****右侧滑动导航***********-->
 <div id="menu">
     <ul>
-        <li><a href="#item1" class="current">通知</a></li>
-        <li><a href="#item2">引言</a></li>
-        <li><a href="#item3">活動模塊</a></li>
-        <li><a href="#item4">場地簡介</a></li>
-        <li><a href="#item5">主辦信息</a></li>
-        <li><a href="#item6">推薦新聞</a></li>
-        <li><a href="#item7">合作夥伴</a></li>
+        <li><a href="#item1" class="current">通知<span></span></a></li>
+        <li><a href="#item2">引言<span></span></a></li>
+        <li><a href="#item3">活動模塊<span></span></a></li>
+        <li><a href="#item4">場地簡介<span></span></a></li>
+        <li><a href="#item5">主辦信息<span></span></a></li>
+        <li><a href="#item6">推薦新聞<span></span></a></li>
+        <li><a href="#item7">合作夥伴<span></span></a></li>
     </ul>
 </div>
 <!--******************notice********************-->
@@ -125,21 +126,21 @@
             </h2>
             <div class="con-modules" >
                 <div class="modules-left">
-                    <a href="#"><img src="images/index/1-9.jpg" alt=""></a>
-                    <a href="#"><img src="images/index/1-11.jpg" alt=""></a>
-                    <a href="#"><img src="images/index/1-13.jpg" alt=""></a>
-                    <a href="#"><img src="images/index/1-15.jpg" alt=""></a>
+                    <a href="activities.html#item1"><img src="images/index/1-9.jpg" alt=""></a>
+                    <a href="activities.html#item3"><img src="images/index/1-11.jpg" alt=""></a>
+                    <a href="activities.html#item5"><img src="images/index/1-13.jpg" alt=""></a>
+                    <a href="activities.html#item7"><img src="images/index/1-15.jpg" alt=""></a>
                 </div>
                 <div class="modules-right">
-                    <a href="#"><img src="images/index/1-10.jpg" alt=""></a>
-                    <a href="#"><img src="images/index/1-12.jpg" alt=""></a>
-                    <a href="#"><img src="images/index/1-14.jpg" alt=""></a>
-                    <a href="#"><img src="images/index/1-16.jpg" alt=""></a>
+                    <a href="activities.html#item2"><img src="images/index/1-10.jpg" alt=""></a>
+                    <a href="activities.html#item4"><img src="images/index/1-12.jpg" alt=""></a>
+                    <a href="activities.html#item6"><img src="images/index/1-14.jpg" alt=""></a>
+                    <a href="activities.html#item8"><img src="images/index/1-16.jpg" alt=""></a>
                 </div>
             </div>
             <div style="clear:both; height:0; overflow:hidden"></div>
             <div class="download" >
-                <a href="#">下載參觀手冊</a>
+                <a href="">下載參觀手冊</a>
             </div>
 
         </div>
@@ -274,11 +275,11 @@
             <div class="info-text">
                 <dl class="information">
                     <dt>官方信息</dt>
-                    <dd><p>官網</p><span><a href="yijiangji.com">yijiangji.com</a></span></dd>
+                    <dd><p>官網</p><span><a href="http://www.yijiangji.com" target="_blank">yijiangji.com</a></span></dd>
                     <dd><p>官方郵箱</p><span>vip@yijiangji.com</span></dd>
                     <dd><p>官方微信</p><span>官方指定信息渠道</span></dd>
                     <dd><p>&nbsp;</p><span>@FOD工具控</span></dd>
-                    <dd><p>官方微博</p><span><a href="http://weibo.com/p/1005056004236541/home?from=page_100505&mod=TAB&is_hot=1#place">@意匠集</a></span></dd>
+                    <dd><p>官方微博</p><span><a href="http://weibo.com/p/1005056004236541/home?from=page_100505&mod=TAB&is_hot=1#place" target="_blank">@意匠集</a></span></dd>
                 </dl>
                 <dl class="address">
                     <dt>地址信息</dt>
@@ -307,6 +308,7 @@
             </div>
         </div>
     </div>
+    <p id="back-to-top" style="display: block;"><a href="#top">TOP<span></span></a></p>
 </div>
 <script src="js/slider.js"></script>
 <script type="text/javascript">

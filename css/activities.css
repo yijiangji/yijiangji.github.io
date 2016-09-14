@@ -22,10 +22,30 @@
 .site-ceremony .con-ceremony h3{
     padding-bottom:25px;
 }
-.site-ceremony .con-ceremony .guests .allguests img{
+.site-ceremony .con-ceremony .guests .allguests dl{
     padding-right:20px;
     padding-bottom:30px;
     float: left;
+    width:144px;
+    font-family:"宋体";
+    color: #505050;
+}
+.site-ceremony .con-ceremony .guests .allguests img{
+    float: left;
+    padding-bottom:8px;
+}
+.site-ceremony .con-ceremony .guests .allguests dt{
+    font-size:14px;
+    line-height: 30px;
+    height:30px;
+    float: left;
+    font-weight:bolder;
+}
+.site-ceremony .con-ceremony .guests .allguests dd{
+    font-size:12px;
+    line-height: 22px;
+    float: left;
+
 }
 .site-ceremony .download{
     height:40px;
@@ -46,12 +66,63 @@
     padding-bottom:7px;
 }
 /*------------------exhibition-----------------*/
+.site-exhibition .con-exhibition dl,
+.site-activity .con-activity dl,
+.site-experience .con-experience dl,
+.site-media .con-media dl,
+.site-venture .con-venture dl,
+.site-live .con-live dl{
+    width:800px;
+    height:168px;
+    color: #505050;
 
+}
+.site-exhibition .con-exhibition dl dt,
+.site-activity .con-activity dl dt,
+.site-experience .con-experience dl dt,
+.site-media .con-media dl dt ,
+.site-venture .con-venture dl dt,
+.site-live .con-live dl dt{
+    border-top:2px solid #ccc;
+    width:206px;
+    height:168px;
+    float: left;
+    margin-right:53px;
+}
+.site-exhibition .con-exhibition dl dt span,
+.site-activity .con-activity dl dt span,
+.site-experience .con-experience dl dt span,
+.site-media .con-media dl dt span,
+.site-venture .con-venture dl dt span,
+.site-live .con-live dl dt span{
+    height:68px;
+    line-height:68px;
+    font-size:18px;
+}
+.site-exhibition .con-exhibition dl dd,
+.site-activity .con-activity dl dd,
+.site-experience .con-experience dl dd,
+.site-media .con-media dl dd ,
+.site-venture .con-venture dl dd,
+.site-live .con-live dl dd{
+    border-top:2px solid #ccc;
+    width:541px;
+    height:168px;
+    float: left;
+}
+.site-exhibition .con-exhibition dl dd span,
+.site-activity .con-activity dl dd span,
+.site-experience .con-experience dl dd span,
+.site-media .con-media dl dd span,
+.site-venture .con-venture dl dd span,
+.site-live .con-live dl dd span{
+    line-height:28px;
+    font-size:14px;
+    margin-top:16px;
+    display: block;
+}
 /*------------------activity-----------------*/
 /*------------------experience-----------------*/
 /*------------------media-----------------*/
 
 /*------------------live-----------------*/
-.site-live{
-    margin-bottom:100px;
-}

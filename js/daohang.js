@@ -2,6 +2,20 @@
  * Created by PC on 2016/8/28.
  */
 $(document).ready(function () {
+    $("#menu").hide;
+
+    $(function () {
+        $(window).scroll(function(){
+            if ($(window).scrollTop()>399){
+                $("#menu").fadeIn(500);
+            }
+            else
+            {
+                $("#menu").fadeOut(500);
+            }
+        });
+    });
+
     $(window).scroll(function () {
         var top = $(document).scrollTop();
         var menu = $("#menu");

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/questions.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/daohang.js"></script>
+    <script src="js/backtotop.js"></script>
     <script>
         jQuery(function(){
             var top=$(".site-nav").offset().top;
@@ -44,9 +45,9 @@
 <!--****************menu*****右侧滑动导航***********-->
 <div id="menu">
     <ul>
-        <li><a href="#item1" class="current">註冊</a></li>
-        <li><a href="#item2">布展</a></li>
-        <li><a href="#item3">參觀</a></li>
+        <li><a href="#item1" class="current">註冊<span></span></a></li>
+        <li><a href="#item2">布展<span></span></a></li>
+        <li><a href="#item3">參觀<span></span></a></li>
     </ul>
 </div>
 <!--******************notice********************-->
@@ -279,11 +280,11 @@
             <div class="info-text">
                 <dl class="information">
                     <dt>官方信息</dt>
-                    <dd><p>官網</p><span><a href="yijiangji.com">yijiangji.com</a></span></dd>
+                    <dd><p>官網</p><span><a href="http://www.yijiangji.com" target="_blank">yijiangji.com</a></span></dd>
                     <dd><p>官方郵箱</p><span>vip@yijiangji.com</span></dd>
                     <dd><p>官方微信</p><span>官方指定信息渠道</span></dd>
                     <dd><p>&nbsp;</p><span>@FOD工具控</span></dd>
-                    <dd><p>官方微博</p><span><a href="http://weibo.com/p/1005056004236541/home?from=page_100505&mod=TAB&is_hot=1#place">@意匠集</a></span></dd>
+                    <dd><p>官方微博</p><span><a href="http://weibo.com/p/1005056004236541/home?from=page_100505&mod=TAB&is_hot=1#place" target="_blank">@意匠集</a></span></dd>
                 </dl>
                 <dl class="address">
                     <dt>地址信息</dt>
@@ -313,6 +314,6 @@
         </div>
     </div>
 </div>
-
+<p id="back-to-top" style="display: block;"><a href="#top">TOP<span></span></a></p>
 </body>
 </html>

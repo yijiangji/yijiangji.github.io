@@ -20,7 +20,12 @@
 }
 /*------------------artist-----------------*/
 .site-artist .con-artist h3{
-    padding-bottom:25px;
+    font-family:"宋体";
+    margin-bottom:25px;
+    font-size:26px;
+    line-height:66px;
+    height:66px;
+    background:url("../images/artists/pink.png") no-repeat left center;
 }
 .site-artist .con-artist{
     font-size:14px;
@@ -35,6 +40,7 @@
 .site-artist .con-artist dl img{
     height:320px;
     width:800px;
+
 }
 .site-artist .con-artist dd{
     line-height:38px;
