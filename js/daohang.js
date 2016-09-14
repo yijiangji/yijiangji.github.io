@@ -6,12 +6,12 @@ $(document).ready(function () {
 
     $(function () {
         $(window).scroll(function(){
-            if ($(window).scrollTop()>399){
-                $("#menu").fadeIn(500);
+            if ($(window).scrollTop()>600){
+                $("#menu").fadeIn();
             }
             else
             {
-                $("#menu").fadeOut(500);
+                $("#menu").fadeOut();
             }
         });
     });
