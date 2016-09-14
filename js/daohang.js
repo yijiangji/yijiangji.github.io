@@ -6,7 +6,7 @@ $(document).ready(function () {
 
     $(function () {
         $(window).scroll(function(){
-            if ($(window).scrollTop()>600){
+            if ($(window).scrollTop()>599){
                 $("#menu").fadeIn();
             }
             else
