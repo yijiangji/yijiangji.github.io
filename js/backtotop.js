@@ -8,11 +8,11 @@ $(document).ready(function(){
     $(function () {
         $(window).scroll(function(){
             if ($(window).scrollTop()>300){
-                $("#back-to-top").fadeIn();
+                $("#back-to-top").fadeIn(500);
             }
             else
             {
-                $("#back-to-top").fadeOut();
+                $("#back-to-top").fadeOut(500);
             }
         });
         //当点击跳转链接后，回到页面顶部位置
