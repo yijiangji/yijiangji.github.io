@@ -38,7 +38,7 @@
     padding-right:20px;
     padding-bottom:30px;
     float: left;
-    width:144px;
+    width:185px;
     font-family:"宋体";
     color: #505050;
 }
@@ -54,6 +54,7 @@
     height:30px;
     float: left;
     font-weight:bolder;
+    width:185px;
 }
 .site-notice .con-notice .sponsor dd,
 .site-introductions .con-introductions .producers dd{
