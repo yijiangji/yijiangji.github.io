@@ -66,18 +66,28 @@
     padding-bottom:7px;
 }
 /*------------------exhibition-----------------*/
-.site-exhibition .con-exhibition dl,
+.site-exhibition .con-exhibition dl{
+    width:800px;
+    height:220px;
+    color: #505050;
+}
 .site-activity .con-activity dl,
 .site-experience .con-experience dl,
 .site-media .con-media dl,
 .site-venture .con-venture dl,
 .site-live .con-live dl{
     width:800px;
-    height:168px;
+    height:100px;
     color: #505050;
 
 }
-.site-exhibition .con-exhibition dl dt,
+.site-exhibition .con-exhibition dl dt{
+    border-top:2px solid #ccc;
+    width:206px;
+    height:220px;
+    float: left;
+    margin-right:53px;
+}
 .site-activity .con-activity dl dt,
 .site-experience .con-experience dl dt,
 .site-media .con-media dl dt ,
@@ -85,7 +95,7 @@
 .site-live .con-live dl dt{
     border-top:2px solid #ccc;
     width:206px;
-    height:168px;
+    height:100px;
     float: left;
     margin-right:53px;
 }
@@ -99,7 +109,12 @@
     line-height:68px;
     font-size:18px;
 }
-.site-exhibition .con-exhibition dl dd,
+.site-exhibition .con-exhibition dl dd{
+    border-top:2px solid #ccc;
+    width:541px;
+    height:220px;
+    float: left;
+}
 .site-activity .con-activity dl dd,
 .site-experience .con-experience dl dd,
 .site-media .con-media dl dd ,
@@ -107,7 +122,7 @@
 .site-live .con-live dl dd{
     border-top:2px solid #ccc;
     width:541px;
-    height:168px;
+    height:100px;
     float: left;
 }
 .site-exhibition .con-exhibition dl dd span,
