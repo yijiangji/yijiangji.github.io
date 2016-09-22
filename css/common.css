@@ -3,7 +3,7 @@ fieldset, img { border:none; }
 img{display: block;}
 a{text-decoration:none; color:#333;}
 h1,h2,h3,h4,h5,h6{font-weight:100;}
-body{font-size:12px; font-family:"微软雅黑";}
+body{font-size:12px; font-family:"Microsoft YaHei";}/*微软雅黑*/
 ul,li,ol{list-style:none;}
 input,a{outline:none;}
 .container{
