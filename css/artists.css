@@ -28,14 +28,12 @@
     background:url("../images/artists/pink.png") no-repeat left center;
 }
 .site-artist .con-artist{
-    font-size:14px;
+    font-size:12px;
     color: #505050;
-    font-family:"宋体";
     line-height: 28px;
-    font-weight:bold;
 }
 .site-artist .con-artist dl{
-    margin-bottom:62px;
+    margin-bottom:30px;
 }
 .site-artist .con-artist dl img{
     height:320px;
